@@ -6,6 +6,8 @@
 body{
     background-color: rgb(1, 29, 24);  
     padding-top: 30px;
+    font-size: larger;
+    width: 100%;
 }
 header{
     width: 100%;
@@ -13,6 +15,10 @@ header{
     display: flex;
     justify-content: center;
 
+}
+div{
+    width: 75%;
+    font-size: larger;
 }
 #div3, #div1{
     background-color: rgb(12, 161, 137);
@@ -33,6 +39,7 @@ header{
 }
 button{
     margin-top: 20px;
+    margin-right: 20px;
     padding: 10px;
     font-size: large;
     font-weight: 700;
