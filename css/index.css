@@ -31,3 +31,13 @@ header{
     background-color: rgb(12, 161, 137);
     background-image:linear-gradient(to left, rgb(12, 161, 137), rgb(188, 188, 212)) ;
 }
+button{
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: large;
+    font-weight: 700;
+    border-radius: 10px;
+    position:relative;
+    float: right;
+}
