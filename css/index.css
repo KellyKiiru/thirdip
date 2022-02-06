@@ -17,8 +17,11 @@ header{
 
 }
 div{
-    width: 75%;
+    width: 100%;
     font-size: larger;
+}
+p{
+    font-weight: 800;
 }
 #div3, #div1{
     background-color: rgb(12, 161, 137);
