@@ -20,3 +20,7 @@
     background-color: rgb(12, 161, 137);
     background-image:linear-gradient(to left, rgb(12, 161, 137), rgb(188, 188, 212)) ;
 }
+body{
+    background-color: rgb(1, 29, 24);  
+    padding-top: 30px;
+}
