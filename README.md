@@ -10,6 +10,7 @@ https://www.figma.com/proto/7z71CQwuvjgnPI5a6cfCnb/Untitled?node-id=1%3A2&scalin
 
 + [Description](#description)
 + [Installation Requirement](#Installation)
++ [License](#License)
 + [Technology Used](#technology-used)
 + [Authors Info](#author-Info)
 
@@ -26,6 +27,9 @@ https://www.figma.com/proto/7z71CQwuvjgnPI5a6cfCnb/Untitled?node-id=1%3A2&scalin
 
 ### Installation Process
 
+## License
+
+* MIT License
 [Go Back to the top](#portfolio)
 ## Technology Used
 * HTML - which was used to build the structure of the pages.
