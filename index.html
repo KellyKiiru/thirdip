@@ -9,62 +9,56 @@
 </head>
 <body>
     <header>
-        <h2>Congratulations on starting your coding journey!</h2>
+        <h2>Congratulations on starting your coding journey!
+        </h2>
     </header>
-    <style>
-        div{
-            padding-bottom: 20px;
-            margin-left: 20px;
-            margin-top: 20px;
-            border: solid 1px ;
-            padding: 10px;
-            box-shadow: 4px 4px 6px;
-            border-radius: 8px;
-            margin-right: 20px;
-            background-color: rgb(12, 161, 137);
-            background-image:linear-gradient(to right, rgb(12, 161, 137), rgb(188, 188, 212)) ;
-        }
-    </style>
-    <div id="div1">
-        <p id="p1">1. What is javascript?</p><br>
-        <input type="radio" name="question1">a html extension<br>
-        <input type="radio" name="question1" id="correct1">a coding language<br>
-        <input type="radio" name="question1">a css file<br>
-    </div>
+        <style>
+            div{
+                padding-bottom: 20px;
+                margin-left: 20px;
+                margin-top: 20px;
+                border: solid 1px ;
+                padding: 10px;
+                box-shadow: 4px 4px 6px;
+                border-radius: 8px;
+                margin-right: 20px;
+                background-color: rgb(12, 161, 137);
+                background-image:linear-gradient(to right, rgb(12, 161, 137), rgb(188, 188, 212)) ;
+            }
+        </style>
+        <div id="div1">
+            <p id="p1">1. What is javascript?</p><br>
+            <input id="input1" type="radio" name="question1"> a html extension<br>
+            <input  id="input2" type="radio" name="question1" id="correct1"> a coding language<br>
+            <input  id="input3" type="radio" name="question1"> a css file<br>
+        </div>
+        
+        <div>
+            <p id="p2" >2. The title tag always goes in the?</p><br>
+            <input id="input1"  type="radio" name="question2"> header<br>
+            <input  id="input2" type="radio" name="question2"> a paragraph<br>
+            <input  id="input3" type="radio" name="question2" id="correct2"> head<br>
+        </div>
+        <div id="div3">
+            <p id="p3" >3. The content of a web page which you can see is inside the:</p><br>
+            <input  id="input1" type="radio" name="question3"> head<br>
+            <input id="input2"  type="radio" name="question3" id="correct3"> body<br>
+            <input  id="input3" type="radio" name="question3"> center<br>
+        </div>
+        <div>
+            <p id="p4">4. What surrounds a string?</p><br>
+            <input id="input1"  type="radio" name="question4"> a paranthesis<br>
+            <input  id="input2" type="radio" name="question4"> a curly brackets<br>
+            <input  id="input3" type="radio" name="question4" id="correct4"> quotations<br>
+        </div>
+        <div id="div5">
+            <p id="p5">5. What sets the element to one side of the page</p><br>
+            <input id="input1"  type="radio" name="question5" id="correct5"> float<br>
+            <input  id="input2" type="radio" name="question5"> a width<br>
+            <input  id="input3" type="radio" name="question5"> a margin<br>
+        </div>
+            <button type="button" onclick="myfunction()">Check your Score</button>
 
-    
-    <div>
-        <p id="p2" >2. The title tag always goes in the?</p><br>
-        <input type="radio" name="question2"> header<br>
-        <input type="radio" name="question2">a paragraph<br>
-        <input type="radio" name="question2" id="correct2">head<br>
-    </div>
-
-
-    <div id="div3">
-        <p id="p3" >3. The content of a web page which you can see is inside the:</p><br>
-        <input type="radio" name="question3">head<br>
-        <input type="radio" name="question3" id="correct3">body<br>
-        <input type="radio" name="question3">center<br>
-    </div>
-
-    <div>
-        <p id="p4">4. What surrounds a string?</p><br>
-        <input type="radio" name="question4">a paranthesis<br>
-        <input type="radio" name="question4">a curly brackets<br>
-        <input type="radio" name="question4" id="correct4">quotations<br>
-    </div>
-
-
-    <div id="div5">
-        <p id="p5">5. What sets the element to one side of the page</p><br>
-        <input type="radio" name="question5" id="correct5">float<br>
-        <input type="radio" name="question5">a width<br>
-        <input type="radio" name="question5">a margin<br>
-    </div>
-
-        <button type="button" onclick="myfunction()">Check your Score</button>
-    
-<script type="text/javascript" src="js/jscript.js"></script>
-</body>
+       <p id="welcome">Click the next button to know your Score</p> 
+        <script type="text/javascript" src="js/jscript.js"></script>
 </html>

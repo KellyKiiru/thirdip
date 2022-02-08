@@ -4,14 +4,15 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgb(1, 29, 24);  
+    background-color: rgb(238, 252, 249);  
     padding-top: 30px;
     font-size: larger;
     width: 100%;
+
 }
 header{
     width: 100%;
-    color: whitesmoke;
+    color: rgb(3, 3, 3);
     display: flex;
     justify-content: center;
 
