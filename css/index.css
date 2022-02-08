@@ -51,3 +51,7 @@ button{
     position:relative;
     float: right;
 }
+#welcome{
+    padding-top: 20px;
+    margin-left: 20px;
+}
