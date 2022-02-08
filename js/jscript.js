@@ -20,15 +20,19 @@ function myfunction(){
     {
         score++;
     }
-alert("Your score is:"+score)}
 
-var customerName = prompt("Please enter your name", "<name goes here>");
-
-if (customerName!= null) {
-
-    document.getElementById("welcome").innerHTML =
-
-    "Hello " + customerName + "! How are you today?";
-
+    document.getElementById("scorep").innerHTML = score
 }
+
+
+
+// var customerName = prompt("Please enter your name", "<name goes here>");
+
+// if (customerName!= null) {
+
+//     document.getElementById("welcome").innerHTML =
+
+//     "Hello " + customerName + "! How are you today?";
+
+// }
 
